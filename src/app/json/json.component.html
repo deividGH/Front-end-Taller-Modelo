@@ -1,0 +1,19 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Apellido</th>
+        <th scope="col">Correo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let p of allPersons">
+          <th>{{p.ID}}</th>
+          <th>{{p.NOMBRE}}</th>
+          <th>{{p.APELLIDO}}</th>
+          <th>{{p.CORREO}}</th>
+
+      </tr>
+    </tbody>
+  </table>
