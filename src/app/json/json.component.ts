@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiDataService } from '../api-data.service'
 
+//Se importa el servicio y en el constructor especificamos que se va a usar
+
 @Component({
   selector: 'app-json',
   templateUrl: './json.component.html',
@@ -12,6 +14,8 @@ export class JsonComponent implements OnInit {
   private data
 
   constructor(private _api: ApiDataService) { }
+
+  //Este método carga tan pronto cargue la página
   ngOnInit() {
 
     

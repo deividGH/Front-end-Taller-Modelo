@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 
-
+//AQUI HACEMOS LA CONEXIÓN CON EL SERVER
 
 @Injectable({
   providedIn: 'root'

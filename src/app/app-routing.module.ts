@@ -8,7 +8,7 @@ import { JsonComponent } from './json/json.component'
 const routes: Routes = [
   { path: 'landing', component: LandingComponent },
   
-  { path: '', redirectTo: 'landing', pathMatch: 'full' }, 
+  { path: '', redirectTo: 'json', pathMatch: 'full' }, 
   
   { path: 'json', component: JsonComponent },
 ];
